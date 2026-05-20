@@ -7,8 +7,7 @@
     --fv3: #AE90A7;
     --fv4: #9CAF88;
     --gradient: #FFF3E0;
-
-    --layout: 16px;
+    --gradient2: #E9D3D3;
 }
 
 
@@ -553,8 +552,9 @@ opacity: 50%;
 .social-text {
     max-width: 500px;
     justify-content: left;
-    padding: 55;
+
 }
+
 .social-text h2 {
     font-size: 3rem;
     line-height: 1.1;
@@ -594,7 +594,6 @@ opacity: 50%;
     text-align: center;
 }
 .social-content h3 {
-    font-size: 2 rem; 
     margin-top: 1.5rem; 
     margin-bottom: 1rem;
 }
