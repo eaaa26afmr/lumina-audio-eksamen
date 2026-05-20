@@ -284,7 +284,7 @@ opacity: 50%;
 
 .product-content h2 {
   font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 800;
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 .product-description {
@@ -295,7 +295,7 @@ opacity: 50%;
 
 .product-price { 
   margin-top: 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 /* Højre side */
@@ -304,6 +304,7 @@ opacity: 50%;
     font-size: 3rem;
     margin-bottom: 2rem;
     font-weight: 700;
+    
 }
 
 .product-description {
@@ -314,13 +315,15 @@ opacity: 50%;
 }
 
 .product-price {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 0.5rem;
+
 }
 
 .product-color {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-bottom: 2rem;
+    
 }
 
 
