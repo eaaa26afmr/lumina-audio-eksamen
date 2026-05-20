@@ -1,5 +1,3 @@
-/* Gør det nemt for mig selv */
-
 :root {
     --white: #ffffff;
     --text-dark: #111;
@@ -249,30 +247,22 @@ color: var(--text-dark);
 /* Slider og billeder */
 
 .slider {
-    position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
 .slides {
     display: flex;
-    gap: 0;
     transition: transform 0.5s ease;
-
 }
 
 .slide {
     min-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
 }
 
 .slide img {
     width: 100%;
-    height: 600px;
-    object-fit: contain;
-    border-radius: 20px;
+    display: block;
 }
 
 /* Dots navigation */
@@ -623,10 +613,7 @@ footer a:hover {
 }
 
 
-/* ========================================
-   14. RESPONSIVE DESIGN
-   ======================================== */
-
+/* RESPONSIVE DESIGN */
 /* Tablet - 768px og under */
 @media (max-width: 768px) {
 
