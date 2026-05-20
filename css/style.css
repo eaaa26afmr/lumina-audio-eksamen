@@ -55,7 +55,7 @@ img {
     padding: 2rem 0;
     padding-left: 0rem;
     padding-right: 0rem;
-    background: linear-gradient(to bottom, #FFFFFF 80%, #AE90A7 60%);
+    
 }
 
 .section-white {
@@ -73,19 +73,15 @@ img {
     font-style: italic;
 }
 
-.section-gradient-bottom {
-    background: linear-gradient(to bottom, var(--white) 10%, var(--gradient) 100%);
-}
-
 .section-lifestyle {
-    background: linear-gradient(to bottom, #FFFFFF 60%, #AE90A7 90%);
+    background: linear-gradient(to top, #DCA1A1 20%, #FFFFFF 80%);
     padding: 3rem 0;
     padding-bottom: 2rem;
     text-align: center;
 }
 
 .section-spec {
-    background: linear-gradient(to top, #FFFFFF 60%, #AE90A7 80%);
+    background: linear-gradient(to top, #FFFFFF 20%, #DCA1A1 80%);
     padding: 8rem;
     padding-left: 0rem;
     padding-right: 0rem;
@@ -235,14 +231,6 @@ opacity: 50%;
     line-height: 1.6;
 }
 
-/* Produkt pris */
-
-.product-price {
-text-align: center;
-font-size: 1.5rem;
-margin-bottom: 1.5rem;
-color: var(--text-dark);
-}
 
 /* Slider og billeder */
 
@@ -265,7 +253,35 @@ color: var(--text-dark);
     display: block;
 }
 
-/* Dots navigation */
+/* Grid layout for produktsektion */
+
+.insta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.insta-item {
+    overflow: hidden;
+    border-radius: 16px;
+    aspect-ratio: auto;
+}
+
+.insta-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.insta-item:hover img {
+    transform: scale(1.05);
+}
+
+
+/* Knapper/CTA */
 
 .dots {
     margin-top: 2rem;
@@ -297,7 +313,6 @@ color: var(--text-dark);
     transform: scale(1.1);
 }
 
-/* Knapper — unified system */
 
 .btn {
   display: inline-flex;
@@ -335,7 +350,7 @@ color: var(--text-dark);
   transform: translateY(-2px);
 }
 
-/* Solid white — for use over dark/video backgrounds */
+/* Solid hvid — til brug over dark/video backgrounds */
 .btn-white {
   background: var(--white);
   color: var(--text-dark);
@@ -349,7 +364,7 @@ color: var(--text-dark);
   transform: translateY(-2px);
 }
 
-/* Ghost — transparent with white border, for use over images/video */
+/* Ghost — transparent med hvid border*/
 .btn-ghost {
   background: transparent;
   color: var(--white);
@@ -373,14 +388,6 @@ color: var(--text-dark);
   flex-wrap: wrap;
 }
 
-/* køb-knap wrapper — shared layout for CTA rows */
-
-.køb-knap {
-  display: flex;
-  justify-content: center;
-  margin: 2.5rem 0;
-}
-
 /* App section CTA */
 
 .app-right {
@@ -394,32 +401,6 @@ color: var(--text-dark);
   justify-content: center;
 }
 
-/* Grid layout for produkt showcases */
-
-.insta-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    margin-top: 3rem;
-    padding-bottom: 2.5rem;
-}
-
-.insta-item {
-    overflow: hidden;
-    border-radius: 16px;
-    aspect-ratio: auto;
-}
-
-.insta-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.insta-item:hover img {
-    transform: scale(1.05);
-}
 
 /* Produkt specifikationer */
 
