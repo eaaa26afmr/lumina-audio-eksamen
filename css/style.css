@@ -655,6 +655,65 @@ opacity: 50%;
     align-items: center;
 }
 
+/* Anmeldelser og kundeudtagelser */
+.reviews-section {
+    padding: 6rem 0;
+    background: linear-gradient(to top, var(--gradient) 100%, #FFFFFF 90%);
+    
+}
+
+.reviews-section h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 4rem;
+}
+
+.reviews-grid {
+   width: 90%;
+   max-width: 1400px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2rem;
+}
+
+.review-card {
+    background: rgb(255, 255, 255);
+    padding: 2.5rem;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+.review-card:hover {
+    transform: translateY(-6px);
+}
+.stars {
+    color: #00b67a;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+.review-card h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+   
+}
+.review-card p {
+    font-size: 20px;
+    line-height: 1.6;
+   margin-bottom: 10px;
+}
+.review-card hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+.review-card span {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+
 
 /* Footer */
 
