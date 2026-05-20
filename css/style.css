@@ -232,11 +232,11 @@ opacity: 50%;
 }
 
 
-/* Slider og billeder */
+/* Slides og billeder */
 
 .slider {
     overflow: hidden;
-    width: 100%;
+   
 }
 
 .slides {
@@ -251,9 +251,80 @@ opacity: 50%;
 .slide img {
     width: 100%;
     display: block;
+    border-radius: 50px;
 }
 
-/* Grid layout for produktsektion */
+/* Produkt showcase layout */
+
+.product-showcase {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f4ebf1 0%, #ffffff 100%);
+    display: flex;
+    align-items: center;
+    padding: 6rem 0;
+
+}
+
+.showcase-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 7rem;
+}
+
+/* Venstre side */
+
+.product-slider {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.product-content h2 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+.product-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 520px;
+}
+
+.product-price { 
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+/* Højre side */
+
+.product-content h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.product-description {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    max-width: 500px;
+}
+
+.product-price {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-color {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* Grid layout for lifestyle sektionen */
 
 .insta-grid {
     display: grid;
@@ -265,7 +336,7 @@ opacity: 50%;
 
 .insta-item {
     overflow: hidden;
-    border-radius: 16px;
+    border-radius: 20px;
     aspect-ratio: auto;
 }
 
