@@ -13,12 +13,6 @@
     --layout: 16px;
 }
 
-/* @font-face {
-  font-family: 'x';
-  src: url('/fonts/x.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} */ 
 
 * {
     margin: 0;
@@ -125,10 +119,10 @@ img {
 
 .logo img {
     width: 100px;
-    margin-right: 0.5rem;
-    align-items: end;
+    height: auto;
+    display: block;
 }
-/* Center navigation */
+/* Navigations Center */
 
 .nav-center {
     flex: 1;
@@ -137,9 +131,9 @@ img {
 }
 
 .nav-center ul {
-    list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
+    list-style: none;
 }
 
 .nav-center a {
