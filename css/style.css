@@ -73,7 +73,7 @@ img {
 }
 
 .section-lifestyle {
-    background: linear-gradient(to top, #DCA1A1 20%, #FFFFFF 80%);
+    background: linear-gradient(to top, #ddb6b6 20%, #FFFFFF 80%);
     padding: 3rem 0;
     padding-bottom: 2rem;
     text-align: center;
@@ -84,7 +84,7 @@ img {
 }
 
 .section-spec {
-    background: linear-gradient(to top, #FFFFFF 20%, #DCA1A1 80%);
+    background: linear-gradient(to top, #FFFFFF 20%, #ddb6b6 80%);
     padding: 8rem;
     padding-left: 0rem;
     padding-right: 0rem;
@@ -191,7 +191,7 @@ img {
     inset: 0;
     background: linear-gradient(
         to bottom,
-        rgba(207, 199, 199, 0.5) 100%
+        rgba(131, 128, 128, 0.5) 100%
     );
 
 opacity: 50%;

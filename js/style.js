@@ -5,6 +5,7 @@ const slides = document.querySelector(".slides");
 
 // Finder alle HTML-elementerne med klassen .dot (farve cirklerne under slideren)//
 const dots = document.querySelectorAll(".dot");
+const colorName = document.querySelector("#color-name");
 
 // Opretter variabelen index, som holder styr på det aktuelle billede i slideren. 
 // Starter ved 0, hvilket betyder det første billede.//
@@ -22,6 +23,9 @@ function updateSlide() {
 
     //Tilføjer klassen 'active' til den dot, der svarer til det aktuelle billede i slideren//
     dots[index].classList.add("active");
+
+    // Skifter farvenavn//
+    colorName.textContent = dots[index].dataset.color;
 }
 //Tilføjer et klik-event listener til hver dot, som opdaterer index og slideren, når en dot klikkes//
 dots.forEach((dot, i) => {
