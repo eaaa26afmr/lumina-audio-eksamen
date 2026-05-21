@@ -370,8 +370,6 @@ opacity: 50%;
 }
 
 
-
-
 /* Knapper/CTA */
 
 .dots {
@@ -484,19 +482,11 @@ opacity: 50%;
   flex-wrap: wrap;
 }
 
-/* App section CTA */
-
-.app-right {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .app-cta {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
-
 
 /* Produkt specifikationer */
 
@@ -665,10 +655,9 @@ opacity: 50%;
 .appstore-logo img {
     width: 185px;
     height: auto;
-    justify-content: right;
-    margin-top: 25px;
-    
+    margin-top: 25px;  
 }
+
 .appstore-logo img:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
