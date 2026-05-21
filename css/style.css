@@ -77,6 +77,7 @@ img {
     padding: 3rem 0;
     padding-bottom: 2rem;
     text-align: center;
+    margin-top: 7rem;
 }
 
 .section-lifestyle h2 {
@@ -91,7 +92,6 @@ img {
 }
 
 /* Header og navigationsbar */
-
 .header {
     position: sticky;
     top: 0;
@@ -100,7 +100,6 @@ img {
     padding: 1.5rem 0;
     border-bottom: 1px solid #eee;
 }
-
 
 .nav {
     display:flex;
@@ -234,7 +233,7 @@ opacity: 50%;
 }
 
 
-/* Slides og billeder */
+/* Slides */
 
 .slider {
     overflow: hidden;
@@ -259,12 +258,10 @@ opacity: 50%;
 /* Produkt showcase layout */
 
 .product-showcase {
-    min-height: 100vh;
     background: linear-gradient(to bottom, #f4ebf1 0%, #ffffff 100%);
     display: flex;
     align-items: center;
-    padding: 6rem 0;
-
+    padding: 3rem 0;
 }
 
 .showcase-grid {
@@ -434,7 +431,6 @@ opacity: 50%;
   background: var(--text-dark);
   color: var(--white);
   border-color: var(--text-dark);
-  margin-bottom: 3.3rem;
 }
 
 .btn-dark:hover {
@@ -482,12 +478,6 @@ opacity: 50%;
   flex-wrap: wrap;
 }
 
-
-.app-cta {
-  display: flex;
-  justify-content: left;
-}
-
 /* Produkt specifikationer */
 
 .spec-layout {
@@ -515,18 +505,14 @@ opacity: 50%;
 .spec-intro img {
     width: 80%;
     border-radius: 16px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .spec-wrapper {
     background: transparent;
-    border-radius: 20px;
     padding: 3rem;
-    max-width: 900px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
-
 }
 
 .spec-row {
@@ -590,6 +576,24 @@ opacity: 50%;
     border-radius: 20px;
     
 }
+
+.app-cta {
+  display: flex;
+  justify-content: left;
+}
+
+.appstore-logo img {
+    width: 185px;
+    height: auto;
+    margin-top: 25px;  
+}
+
+.appstore-logo img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
 /* Social connect sektion */
 .section-gradient-bottom {
     background: linear-gradient(to top, var(--gradient) 20%, var(--white) 100%);
@@ -604,8 +608,6 @@ opacity: 50%;
 }
 .social-content h2 {
     font-size: 2rem;
-    margin-bottom: 0rem;
-    margin-top: 1rem;
     text-align: center;
 }
 .social-content h3 {
@@ -650,30 +652,12 @@ opacity: 50%;
     object-fit: cover;
     border-radius: 20px;
     margin-bottom: 100px;
-   
-}
-.appstore-logo img {
-    width: 185px;
-    height: auto;
-    margin-top: 25px;  
-}
-
-.appstore-logo img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-    cursor: pointer;
-}
-.app-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 /* Anmeldelser og kundeudtagelser */
 .reviews-section {
     padding: 6rem 0;
-    background: linear-gradient(to top, var(--gradient) 100%, #FFFFFF 90%);
-    
+    background: linear-gradient(to top, var(--gradient) 100%, #FFFFFF 90%);  
 }
 
 .reviews-section h2 {
@@ -725,9 +709,6 @@ opacity: 50%;
     font-size: 25px;
     font-weight: 500;
 }
-
-
-
 
 /* Footer */
 
@@ -792,74 +773,3 @@ footer a:hover {
 }
 
 
-/* RESPONSIVE DESIGN */
-/* Tablet - 768px og under */
-@media (max-width: 768px) {
-
-  .nav-center ul {
-    gap: 1rem;
-  }
-  
-
-  .subheadline p {
-    text-align: center;
-  }
-  .hero {
-    height: 100svh;
-  }
-
-  .hero-cta {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .slide {
-    min-height: 300px;
-    margin-bottom: 3rem;
-  }
-  
-  .slide img {
-    height: 300px;
-    width: auto;
-    object-fit: contain;
-  }
-  
-  .spec-layout,
-  .social-layout {
-    grid-template-columns: 1fr;
-}
-  
-  .insta-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .footer-flex {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Mobil - 480px og under */
-@media (max-width: 480px) {
-
-  .nav-center ul {
-    gap: 0.5rem;
-    font-size: 0.9rem;
-  } 
-
-  .dots {
-    gap: 1rem;
-  }
-  
-  .dot {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .insta-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .footer-flex {
-    grid-template-columns: 1fr;
-  }
-}
