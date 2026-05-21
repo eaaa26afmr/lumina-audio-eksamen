@@ -484,6 +484,7 @@ opacity: 50%;
     gap: 3rem;
     margin-top: 3rem;
     align-items: start;
+  
 }
 
 .spec-heading {
@@ -501,13 +502,14 @@ opacity: 50%;
 
 
 .spec-intro img {
-    width: 85%;
+    width: 80%;
     border-radius: 16px;
+    margin-top: 50px;
 }
 
 .spec-wrapper {
     background: transparent;
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -535,6 +537,11 @@ opacity: 50%;
 }
 
 /* Social connect showcase */
+
+.section-lumina-app {
+   background: linear-gradient(to top, var(--gradient) 20%, var(--white) 100%);
+}
+
 .social-connect {
     background: #E9D3D3;
     padding: 6rem 5rem;
@@ -598,6 +605,7 @@ opacity: 50%;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
+    
 }
 .social-content h2 {
     font-size: 2rem;
@@ -650,7 +658,8 @@ opacity: 50%;
 /* Anmeldelser og kundeudtagelser */
 .reviews-section {
     padding: 6rem 0;
-    background: linear-gradient(to top, var(--gradient) 100%, #FFFFFF 90%);  
+    background: linear-gradient(to top, var(--gradient) 100%, #FFFFFF 90%);
+
 }
 
 .reviews-section h2 {
