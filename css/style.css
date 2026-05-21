@@ -593,11 +593,6 @@ opacity: 50%;
 }
 
 /* Social connect sektion */
-.section-gradient-bottom {
-    background: linear-gradient(to top, var(--gradient) 20%, var(--white) 100%);
-    padding: 6rem 0;
-   
-}
 .social-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
