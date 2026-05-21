@@ -287,6 +287,8 @@ opacity: 50%;
   font-weight: 500;
   margin-bottom: 2rem;
 }
+
+
 .product-description {
   font-size: 1.2rem;
   line-height: 1.8;
@@ -392,6 +394,7 @@ opacity: 50%;
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 1rem;
 }
 
 .btn {
@@ -501,8 +504,9 @@ opacity: 50%;
 
 
 .spec-intro img {
-    width: 85%;
+    width: 80%;
     border-radius: 16px;
+    margin-top: 40px;
 }
 
 .spec-wrapper {
