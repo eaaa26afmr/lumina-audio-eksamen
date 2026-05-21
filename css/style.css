@@ -322,11 +322,17 @@ opacity: 50%;
 
 }
 
-.product-color {
+.product-content {
     font-size: 1.7rem;
     margin-bottom: 2rem;
-    
+    display: flex;
+    flex-direction: column;
 }
+
+.product-showcase {
+    flex-direction: column;
+}
+
 
 
 /* Grid layout for lifestyle sektionen */
@@ -355,6 +361,15 @@ opacity: 50%;
 .insta-item:hover img {
     transform: scale(1.05);
 }
+
+.product-buy-btn {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
 
 
 /* Knapper/CTA */
@@ -391,10 +406,14 @@ opacity: 50%;
 
 .buy-btn,
 .køb-knap {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.buy-btn {
+    margin-top: 4rem;
 }
 
 .btn {
