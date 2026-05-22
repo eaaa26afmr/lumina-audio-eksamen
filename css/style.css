@@ -191,15 +191,6 @@ img {
   transform: translateY(-2px);
 }
 
-/* Hero CTA wrapper */
-
-.hero-cta {
-  display: flex;
-  gap: 0.875rem;
-  justify-content: center;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-}
 
 /* Header og navigationsbar */
 .header {
@@ -717,6 +708,12 @@ opacity: 50%;
 .review-card span {
     font-size: 25px;
     font-weight: 500;
+}
+
+.review-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
 }
 
 /* Footer */
