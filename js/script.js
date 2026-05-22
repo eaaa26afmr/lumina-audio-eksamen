@@ -5,6 +5,7 @@ const slides = document.querySelector(".slides");
 
 // Finder alle HTML-elementerne med klassen .dot (farve cirklerne under slideren)//
 const dots = document.querySelectorAll(".dot");
+
 // Finder HTML-elementet med id'et #color-name (elementet der viser farvenavnet)//
 const colorName = document.querySelector("#color-name");
 
@@ -35,4 +36,5 @@ dots.forEach((dot, i) => {
         updateSlide();
     });
 });
+
 

@@ -500,11 +500,19 @@ opacity: 50%;
    margin-bottom: 1.5rem;
 }
 
+.spec-intro {
+    overflow: hidden;
+    border-radius: 20px;
+}
 
 .spec-intro img {
-    width: 80%;
-    border-radius: 16px;
-    margin-top: 50px;
+    width: 100%;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.spec-intro img:hover {
+    transform: scale(1.05);
 }
 
 .spec-wrapper {
@@ -579,7 +587,6 @@ opacity: 50%;
     height: auto;
     display: block;
     border-radius: 20px;
-    
 }
 
 .app-cta {
