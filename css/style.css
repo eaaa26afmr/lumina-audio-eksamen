@@ -91,6 +91,116 @@ img {
     padding-right: 0rem;
 }
 
+/* Knapper/CTA */
+
+.dots {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.dot {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dot:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.dot.active {
+    border-color: #2a2a2a;
+    border-width: 1px;
+    transform: scale(1.1);
+}
+
+.buy-btn,
+.køb-knap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.buy-btn {
+    margin-top: 4rem;
+}
+
+.btn {
+    padding: 1rem 2.5rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+/* Solid dark — primary CTA */
+.btn-dark {
+  background: var(--text-dark);
+  color: var(--white);
+  border-color: var(--text-dark);
+}
+
+.btn-dark:hover {
+  background: #2a2a2a;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Solid hvid — til brug over dark/video backgrounds */
+.btn-white {
+  background: var(--white);
+  color: var(--text-dark);
+  border-color: var(--white);
+}
+
+.btn-white:hover {
+  background: var(--fv2);
+  border-color: var(--fv2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Ghost — transparent med hvid border*/
+.btn-ghost {
+  background: transparent;
+  color: var(--white);
+  border-color: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(4px);
+}
+
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--white);
+  transform: translateY(-2px);
+}
+
+/* Hero CTA wrapper */
+
+.hero-cta {
+  display: flex;
+  gap: 0.875rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
 /* Header og navigationsbar */
 .header {
     position: sticky;
@@ -366,117 +476,6 @@ opacity: 50%;
     width: 100%;
 }
 
-
-/* Knapper/CTA */
-
-.dots {
-    margin-top: 2rem;
-    padding-bottom: 2rem;
-    display: flex;
-    justify-content: flex-start;
-    gap: 1.5rem;
-}
-
-.dot {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-    border: 2px solid transparent;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.dot:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.dot.active {
-    border-color: #2a2a2a;
-    border-width: 1px;
-    transform: scale(1.1);
-}
-
-.buy-btn,
-.køb-knap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.buy-btn {
-    margin-top: 4rem;
-}
-
-.btn {
-    padding: 1rem 2.5rem;
-    border-radius: 999px;
-    font-size: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
-}
-
-.btn:active {
-  transform: translateY(1px);
-}
-
-/* Solid dark — primary CTA */
-.btn-dark {
-  background: var(--text-dark);
-  color: var(--white);
-  border-color: var(--text-dark);
-}
-
-.btn-dark:hover {
-  background: #2a2a2a;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-  transform: translateY(-2px);
-}
-
-/* Solid hvid — til brug over dark/video backgrounds */
-.btn-white {
-  background: var(--white);
-  color: var(--text-dark);
-  border-color: var(--white);
-}
-
-.btn-white:hover {
-  background: var(--fv2);
-  border-color: var(--fv2);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
-  transform: translateY(-2px);
-}
-
-/* Ghost — transparent med hvid border*/
-.btn-ghost {
-  background: transparent;
-  color: var(--white);
-  border-color: rgba(255, 255, 255, 0.65);
-  backdrop-filter: blur(4px);
-}
-
-.btn-ghost:hover {
-  background: rgba(255, 255, 255, 0.12);
-  border-color: var(--white);
-  transform: translateY(-2px);
-}
-
-/* Hero CTA wrapper */
-
-.hero-cta {
-  display: flex;
-  gap: 0.875rem;
-  justify-content: center;
-  margin-top: 2rem;
-  flex-wrap: wrap;
-}
-
 /* Produkt specifikationer */
 .spec-layout {
     display: grid;
@@ -535,13 +534,12 @@ opacity: 50%;
 
 .spec-title {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.0rem;
 }
 
 .spec-text {
-    color: black;
-    line-height: 1.6;
-    font-size: 0.95rem;
+    line-height: 1.8;
+    font-size: 1.05rem;
 }
 
 /* Social connect showcase */
@@ -662,9 +660,11 @@ opacity: 50%;
 .app-image:hover img {
     transform: scale(1.05);
 }
+
 /* Anmeldelser og kundeudtagelser */
 .reviews-section {
     padding: 6rem 0;
+    padding-top: 10rem;
     background: linear-gradient(to top, var(--gradient) 100%, #FFFFFF 90%);
 
 }
