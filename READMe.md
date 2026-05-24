@@ -2,5 +2,5 @@ Mappestruktur
  
 
 
-Validering
-![Validering HTML] (images/validering-html.png) 
+Validering:
+![Validering] (images/validering-html.png) 
