@@ -25,16 +25,6 @@ body {
 
 }
 
-img {
-    max-width: 100%;
-    display: block;
-}
-
-.visually-hidden {
-    position: absolute;
-    left: -9999px;
-}
-
 
 /* Container */
 
@@ -43,7 +33,6 @@ img {
     max-width: 1200px;
     margin: auto;
 }
-
 
 /* Knapper/CTA */
 
@@ -310,7 +299,7 @@ opacity: 50%;
     border-radius: 50px;
 }
 
-/* Produkt showcase layout */
+/* Produktsektion */
 
 .product-showcase {
     background: linear-gradient(to bottom, #f4d7d7 0%, #ffffff 100%);
@@ -386,7 +375,6 @@ opacity: 50%;
 }
 
 /* Sektion lifestyle */
-
 .section-padding {
     padding: 2rem 0;
     padding-left: 0rem;
@@ -509,7 +497,6 @@ opacity: 50%;
 
 
 /* Social connect showcase */
-
 .section-lumina-app {
    background: linear-gradient(to top, var(--gradient) 20%, var(--white) 100%);
 }
@@ -703,7 +690,6 @@ opacity: 50%;
 }
 
 /* Footer */
-
 footer {
     background: linear-gradient(to top, var(--white) 50%, var(--gradient) 100%);
 }
