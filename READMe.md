@@ -9,8 +9,6 @@ JS-mappen indeholder filen script.js, som bruges til hjemmesidens funktionalitet
 
 images-mappen er her alle billeder ligger. Her opbevares produktbilleder, ikoner, logoer og andre visuelle elementer, som bruges på hjemmesiden. 
 
-videoes-mappen er her min video i heroen ligger.
-
 Denne struktur gør projektet mere overskueligt og lettere at arbejde med. Ved at opdele filer i mapper bliver det nemmere at finde bestemte filer.
 
 ![Mappestruktur](images/fil-og-mappestruktur.png)
