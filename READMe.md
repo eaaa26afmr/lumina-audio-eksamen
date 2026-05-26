@@ -11,7 +11,7 @@ images-mappen er her alle billeder ligger. Her opbevares produktbilleder, ikoner
 
 Denne struktur gør projektet mere overskueligt og lettere at arbejde med. Ved at opdele filer i mapper bliver det nemmere at finde bestemte filer.
 
-![Mappestruktur]
+![Mappestruktur](images/fil-og-mappestruktur.png)
 
  
 
