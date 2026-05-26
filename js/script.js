@@ -16,14 +16,11 @@ const colors = [
 
 let index = 0;
 
-
 function updateSlide() {
 
     slides.style.transform = `translateX(${-index * 100}%)`;
 
     showcase.style.background = colors[index];
-
-
 
     dots.forEach(dot => dot.classList.remove("active"));
     dots[index].classList.add("active");
@@ -37,6 +34,7 @@ dots.forEach((dot, i) => {
         updateSlide();
     });
 });
+
 
 
 

@@ -150,7 +150,7 @@ img {
   transform: translateY(1px);
 }
 
-/* Solid dark — primary CTA */
+/* Solid dark */
 .btn-dark {
   background: var(--text-dark);
   color: var(--white);
@@ -163,7 +163,7 @@ img {
   transform: translateY(-2px);
 }
 
-/* Solid hvid — til brug over dark/video backgrounds */
+/* Solid hvid */
 .btn-white {
   background: var(--white);
   color: var(--text-dark);
@@ -276,7 +276,7 @@ img {
     justify-content: center;
 }
 
-.hero-video {
+.hero-image {
     position: absolute;
     inset: 0;
     width: 100%;
@@ -318,7 +318,7 @@ opacity: 50%;
 }
 
 .hero-content h1 {
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 600;
     color: var(--white);
     letter-spacing: -0.02em;
@@ -326,9 +326,9 @@ opacity: 50%;
 }
 
 .hero-tagline {
-    font-size: 1.3rem;
+    font-size: 1.50rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.85);
+    color: var(--white);
     line-height: 1.6;
     margin-bottom: 2rem;
 }
