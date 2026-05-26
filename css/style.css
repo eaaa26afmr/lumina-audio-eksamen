@@ -554,17 +554,28 @@ opacity: 50%;
 }
 
 .app-cta {
-  display: flex;
-  justify-content: left;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2rem;
 }
 
 .appstore-logo img {
     width: 185px;
     height: auto;
-    margin-top: 25px;  
 }
 
 .appstore-logo img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.googleplay-logo img {
+    width: 220px;
+    height: auto;
+}
+
+.googleplay-logo img:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
     cursor: pointer;
