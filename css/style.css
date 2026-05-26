@@ -44,46 +44,6 @@ img {
     margin: auto;
 }
 
-/* Sektioner */
-
-.padding {
-    padding: 3rem 0;
-}
-
-.section-padding {
-    padding: 2rem 0;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    
-}
-
-.section-white {
-    background: var(--white);
-}
-
-.section-white h2 {
-    text-align: center;
-    margin-bottom: 0.5rem;
-   
-}
-
-.section-white p {
-    font-weight: lighter;
-    font-style: italic;
-}
-
-.section-lifestyle {
-    background: linear-gradient(to top, #f4d7d7 20%, #FFFFFF 80%);
-    padding: 3rem 0;
-    padding-bottom: 2rem;
-    text-align: center;
-    margin-top: 7rem;
-    padding-bottom: 8rem;
-}
-
-.section-lifestyle h2 {
-    font-size: 2rem;
-}
 
 /* Knapper/CTA */
 
@@ -425,7 +385,27 @@ opacity: 50%;
     flex-direction: column;
 }
 
+/* Sektion lifestyle */
 
+.section-padding {
+    padding: 2rem 0;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    
+}
+
+.section-lifestyle {
+    background: linear-gradient(to top, #f4d7d7 20%, #FFFFFF 80%);
+    padding: 3rem 0;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-top: 7rem;
+    padding-bottom: 8rem;
+}
+
+.section-lifestyle h2 {
+    font-size: 2rem;
+}
 
 /* Grid layout for lifestyle sektionen */
 
@@ -460,6 +440,7 @@ opacity: 50%;
     justify-content: center;
     width: 100%;
 }
+
 
 /* Produktspecifikationer */
 .spec-section {
