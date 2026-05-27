@@ -533,10 +533,11 @@ opacity: 50%;
     font-weight: 500;
 }
 .social-image img {
-    width: 100%;
+    width: 50%;
     height: auto;
     display: block;
     border-radius: 20px;
+    margin-left: 75px;
 }
 
 .app-cta {
