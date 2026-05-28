@@ -433,7 +433,7 @@ opacity: 50%;
 /* Produktspecifikationer */
 .spec-section {
   padding: 90px 8%;
-  background: linear-gradient(to top, #FFFFFF 20%, #f4d7d7 80%);
+  background: linear-gradient(to top, #FFFFFF 10%, #f4d7d7 60%);
 }
 
 .spec-content {
@@ -533,7 +533,7 @@ opacity: 50%;
     font-weight: 500;
 }
 .social-image img {
-    width: 50%;
+    width: 80%;
     height: auto;
     display: block;
     border-radius: 20px;
